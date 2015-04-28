@@ -1,0 +1,4 @@
+# MySqlTestAsync
+Basic MYSQL Connection in AsycTaks using Android Studio 1.x
+
+This is a basic implementation of a simple Android app that connected to an external MySql database.  For this implementation, I am accessing a table called CowIdentification with fields called Tag, Name, Brand, and RegNumber.  Some of the code out there uses depreciated http calls, so this is an example of using the Android Studio 1.x preferred method of connecting.  If you look, you will also notice it is done in a background AsyncTask, also following the guild line of offloading network calls from the main thread.   This will ultimately be a CRUD (Create, Read, Update, and Delete) implementation and I will add code to this repository as I finish it.  While not a tutorial, this code does work and I attempted to comment in appropriate places to help you along. 
